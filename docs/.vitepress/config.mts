@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/tud-cs-master-notes/',
   title: "tud-cs-master-notes",
   description: "Open Track Specialization Areas",
   themeConfig: {
