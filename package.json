@@ -1,0 +1,27 @@
+{
+  "name": "tud-cs-master-notes",
+  "version": "1.0.0",
+  "description": "An open knowledge hub for M.Sc. Computer Science students at TU Dresden, featuring curated course notes and exam-focused study materials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yifrain/tud-cs-master-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yifrain/tud-cs-master-notes/issues"
+  },
+  "homepage": "https://github.com/yifrain/tud-cs-master-notes#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.29"
+  }
+}
