@@ -3,16 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "tud-cs-master-notes",
-  description: "A VitePress Site",
+  description: "Open Track Specialization Areas",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: "Home", link: "/" },
-      { text: "OS", link: "/os/" },
-      { text: "DB", link: "/db/" },
-      { text: "Distributed Systems", link: "/distributed/" }
     ],
 
     sidebar: {
@@ -25,16 +21,66 @@ export default defineConfig({
           ]
         }
       ],
-      '/os/': [
+      '/systems-architecture/': [
         {
-          text: 'Operating Systems',
+          text: 'Systems Architecture',
           items: [
-            { text: 'Overview', link: '/os/' }
+            { text: 'Overview', link: '/systems-architecture/' },
+            { text: 'Systems Engineering', link: '/systems-architecture/systems-engineering' },
+            { text: 'Distributed Systems', link: '/systems-architecture/distribute-systems' }
+          ]
+        }
+      ],
+      '/theoretical-ai/': [
+        {
+          text: 'Theoretical AI',
+          items: [
+          ]
+        }
+      ],
+      '/software-tech/': [
+        {
+          text: 'Software Tech',
+          items: [
+          ]
+        }
+      ],
+      '/secure-computing/': [
+        {
+          text: 'Secure Computing',
+          items: [
+          ]
+        }
+      ],
+      '/cyber-physical/': [
+        {
+          text: 'Cyber-Physical',
+          items: [
+          ]
+        }
+      ],
+      '/visual-ml/': [
+        {
+          text: 'Visual ML',
+          items: [
+          ]
+        }
+      ],
+      '/hci-media/': [
+        {
+          text: 'HCI Media',
+          items: [
+          ]
+        }
+      ],
+      '/comp-engineering/': [
+        {
+          text: 'Comp Engineering',
+          items: [
           ]
         }
       ]
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
