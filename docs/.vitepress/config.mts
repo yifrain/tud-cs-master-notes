@@ -36,6 +36,7 @@ export default defineConfig({
         {
           text: 'Theoretical AI',
           items: [
+            { text: 'Overview', link: '/theoretical-ai/' },
           ]
         }
       ],
@@ -43,6 +44,7 @@ export default defineConfig({
         {
           text: 'Software Tech',
           items: [
+            { text: 'Overview', link: '/software-tech/' },
           ]
         }
       ],
@@ -57,6 +59,7 @@ export default defineConfig({
         {
           text: 'Cyber-Physical',
           items: [
+            { text: 'Overview', link: '/cyber-physical/' }
           ]
         }
       ],
@@ -64,6 +67,9 @@ export default defineConfig({
         {
           text: 'Visual ML',
           items: [
+            { text: 'Overview', link: '/visual-ml/' },
+            { text: 'Foundations of Virtual Reality', link: '/visual-ml/foundations-of-virtual-reality' },
+            { text: 'Data Visualization', link: '/visual-ml/foundations-of-data-visualization' }
           ]
         }
       ],
@@ -71,6 +77,7 @@ export default defineConfig({
         {
           text: 'HCI Media',
           items: [
+            { text: 'Overview', link: '/hci-media/' },
           ]
         }
       ],
@@ -78,6 +85,7 @@ export default defineConfig({
         {
           text: 'Comp Engineering',
           items: [
+            { text: 'Overview', link: '/comp-engineering/' }
           ]
         }
       ]
